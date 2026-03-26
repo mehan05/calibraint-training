@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package helloPackage;
+
+service HelloClass {
+    rpc get_hello_B (empty) returns (hello) {}
+}
+
+
+message empty {}
+
+
+message hello {
+    string greet_string = 1;
+}
+

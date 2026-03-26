@@ -1,0 +1,170 @@
+body {
+  box-sizing: border-box;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  font-size: 13px;
+  
+  /* align-items: center; */
+  padding: 5px;
+  /* border: solid 1px black;
+    border-radius: 15px;
+    padding: 10px; */
+}
+
+p {
+  font-size: x-large;
+}
+h2 {
+  margin-bottom: 0px;
+}
+hr {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  /* border: solid 1px red; */
+}
+/* #github-freelance{
+     font-size: 25px;
+    border: solid 1px green;
+    padding-left: 2px;
+   
+} */
+#title{
+    font-weight: 800;
+}
+#bio-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+#project-section {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+#contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 13px;
+  /* border: solid 1px red; */
+}
+
+#sol-id{
+    /* background-color: red; */
+    /* border: solid 1px green; */
+    margin-top: 30px;
+}
+
+#edu {
+  padding: 3px;
+  text-align: justify;
+  border-radius: 5px;
+}
+.edu {
+  padding-left: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects {
+  padding-left: 20px;
+}
+.project-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#project-head {
+  display: flex;
+  align-items: center;
+}
+
+#education-section{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#email{
+    color: inherit;
+    text-decoration: none;
+}
+.project-body-1 {
+  display: flex;
+  align-items: center;
+
+  /* border: solid 1px red ; */
+  /* padding: 0px;
+    margin: 0px;
+    height: 15px; */
+}
+a{
+    color: rgb(0, 123, 238);
+}
+.project-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  /* border: solid 1px blue; */
+  padding: 0px;
+}
+.heading {
+  font-weight: 700;
+  font-size: x-large;
+}
+#project_list,
+li {
+  font-size: 20px;
+}
+
+#github-freelance{
+    font-weight: 100;
+}
+
+p {
+  font-weight: 100;
+}
+span {
+  font-weight: 600;
+}
+
+li {
+    font-weight: bolder;
+}
+
+.github{
+    font-size: 25px;
+    /* border: solid 1px red; */
+    padding-left: 2px;
+
+}
+
+
+
+@media  (min-width: 320px) {
+  body {
+    min-width: 1000px;
+  }
+}
+
+@media  (max-width: 1600px) {
+  .main-box {
+     /* border: solid 1px green; */
+     max-width: 900px;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+        /* border: solid red 1px; */
+        /* min-width: 700px; */
+        /* max-width: 900px; */
+    };
+}

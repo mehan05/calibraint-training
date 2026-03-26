@@ -1,0 +1,33 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc && node dist/index.js",
+    "abstractClass": "tsc && node dist/milestone4/abstractClass.js",
+    "InstanceStaticDatMembers": "tsc && node dist/milestone4/InstanceAndStaticMembers.js",
+    "overLoadingAndOverRiding": "tsc && node dist/milestone4/methodOverloadingAndOverRiding.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "vehicle": "tsc && node dist/OOPS/vehicle/main.js",
+    "generic": "tsc && node dist/milestone5/generics.js",
+    "factory": "tsc && node dist/OOPS/oopsPattern/factory.js",
+    "singleton": "tsc && node dist/OOPS/oopsPattern/singleton.js",
+    "observer": "tsc && node dist/OOPS/oopsPattern/observerPattern.js",
+    "expense": "tsc && node dist/OOPS/expense/main.js",
+    "pattern": "tsc && node dist/OOPS/oopsPattern/test.js",
+    "tic":"tsc && node dist/OOPS/tic_tac_toe/game.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^25.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "readline": "^1.3.0"
+  }
+}
